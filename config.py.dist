@@ -1,0 +1,9 @@
+# Copy the content of this file to config.py.
+config = dict(
+    CLIENT_ID="", # Check praw config options
+    CLIENT_SECRET="", # Check praw config options
+    USER_AGENT="", # Check praw config options
+    SUBREDDIT="magicTCG", # The subreddit name (can be changed if you want to follow a different sub)
+    SPOILER_FLAIR = "Spoiler", # Additional tag/flair for filtering the posts (Default: Spoiler)
+    BROWSER_PATH="" # Absolute path to prefered browser executable
+)
