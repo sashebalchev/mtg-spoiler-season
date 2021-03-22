@@ -24,6 +24,6 @@ if __name__ == "__main__":
                 posts_names.append(submission.title[6:].lower())
                 if not submission.is_self:
                     toaster.show_toast("New Spoiler", submission.title)
-                    webbrowser.get(CHROME_PATH).open(
+                    webbrowser.get(BROWSER_PATH).open(
                         f'https://www.reddit.com{submission.permalink}')
         time.sleep(60)
